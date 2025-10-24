@@ -123,3 +123,16 @@
     @apply bg-background text-foreground;
   }
 }
+
+.container {
+  width: 50%;
+  height:300px;
+  background: blue; border: 1px solid;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100%;
+  padding-bottom: 100%;
+  background: white;
+}
