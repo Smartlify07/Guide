@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <section className="px-14 flex justify-between font-poppins items-center gap-6">
+    <section className="px-14 flex py-20 justify-between font-poppins items-center gap-6">
       <div className="grid gap-5 w-6/12">
         <header className="grid gap-2">
           <h1 className="text-foreground text-5xl">
