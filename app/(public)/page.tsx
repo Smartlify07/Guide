@@ -1,3 +1,4 @@
+import AboutFounderSection from '@/components/features/landingpage/about-founder-section';
 import HeroSection from '@/components/features/landingpage/hero-section';
 import ServicesSection from '@/components/features/landingpage/services-section';
 import SubmissionSection from '@/components/features/landingpage/submission-section';
@@ -10,6 +11,7 @@ export default function Home() {
       <SupportSection />
       <ServicesSection />
       <SubmissionSection />
+      <AboutFounderSection />
     </>
   );
 }
