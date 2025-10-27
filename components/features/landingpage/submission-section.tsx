@@ -47,7 +47,7 @@ const SubmissionSection = () => {
             height={90}
             src={'/lightbulb-2.svg'}
             alt="Lightbulb"
-            className="absolute right-[10%] top-[0%] size-[90px]"
+            className="absolute size-[60px] right-[10%] -top-[2%] lg:right-[10%] lg:top-[0%] lg:size-[90px]"
           />
           <div className="rounded-lg bg-primary/10 h-fit absolute bottom-[10%] left-[5%] lg:top-[30%] lg:-left-[15%] py-2 px-4 translate-y-1/2 border-2 z-10 text-center">
             <h3 className="text-foreground font-medium text-xs">
