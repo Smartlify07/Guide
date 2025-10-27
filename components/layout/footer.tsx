@@ -29,7 +29,7 @@ const contactLinks = [
 const Footer = () => {
   return (
     <footer className="bg-primary/3 py-20 px-14 font-poppins">
-      <div className="grid gap-10 lg:gap-0 lg:grid-cols-2 container">
+      <div className="grid gap-10 lg:gap-0 md:grid-cols-2 container">
         <div className="flex flex-col gap-5">
           <h1 className="text-4xl lg:text-5xl font-plaster">GUIDE</h1>
           <p className="text-black/60">
@@ -64,7 +64,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col gap-10 lg:justify-self-end">
+        <div className="flex flex-col gap-10 md:justify-self-end">
           <div className="flex flex-col gap-2.5">
             <h3 className="text-black font-medium text-lg">Contacts</h3>
 
