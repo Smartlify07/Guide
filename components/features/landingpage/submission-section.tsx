@@ -31,18 +31,18 @@ const SubmissionSection = () => {
           </div>
         </div>
 
-        <div className="lg:w-6/12 relative max-w-[300px] h-[300px] ">
-          <div className="rounded-full relative pb-[100%] w-full max-h-[300px] overflow-hidden bg-primary/5">
+        <div className="lg:w-6/12 relative max-w-[300px] h-[300px] lg:max-w-[500px] lg:h-[500px]">
+          <div className="rounded-full relative pb-[100%] w-full max-h-[300px] lg:max-h-[500px] overflow-hidden bg-primary/5">
             <Image
               width={400}
               height={400}
               unoptimized
               src={'/guide-hero-image.png'}
               alt="Guide hero image"
-              className="w-full h-full mt-[10%] object-contain"
+              className="w-full h-full mt-[25%] object-contain"
             />
           </div>
-          <div className="rounded-lg bg-primary/10 absolute bottom-[10%] left-[5%] lg:top-[30%] lg:-left-[15%] py-2 px-4 translate-y-1/2 border-2 z-10 text-center">
+          <div className="rounded-lg bg-primary/10 h-fit absolute bottom-[10%] left-[5%] lg:top-[30%] lg:-left-[15%] py-2 px-4 translate-y-1/2 border-2 z-10 text-center">
             <h3 className="text-foreground font-medium text-xs">
               Look no further, let’s help you review{' '}
             </h3>

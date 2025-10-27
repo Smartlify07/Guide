@@ -28,7 +28,7 @@ const contactLinks = [
 
 const Footer = () => {
   return (
-    <footer className="bg-primary/10 py-20 px-14 font-poppins">
+    <footer className="bg-primary/3 py-20 px-14 font-poppins">
       <div className="grid gap-10 lg:gap-0 lg:grid-cols-2 container">
         <div className="flex flex-col gap-5">
           <h1 className="text-4xl lg:text-5xl font-plaster">GUIDE</h1>
@@ -77,7 +77,7 @@ const Footer = () => {
           </div>
 
           <div className="border-t border-t-black/60 pt-2.5 w-[212px]">
-            <p className="text-black/60 text-center text-sm">
+            <p className="text-black/60 text-left lg:text-center text-sm">
               © 2025 <span className="font-plaster">GUIDE</span> All rights
               reserved.
             </p>
