@@ -19,7 +19,7 @@ const AboutFounderSection = () => {
             institutional development.
           </article>
           <div className="flex items-center gap-4">
-            <div className="rounded-full size-14 flex items-center justify-center overflow-hidden bg-[rgba(246,189,0,0.3)]">
+            <div className="rounded-full shrink-0 size-14 flex items-center justify-center overflow-hidden bg-[rgba(246,189,0,0.3)]">
               <Image
                 unoptimized
                 width={32}
