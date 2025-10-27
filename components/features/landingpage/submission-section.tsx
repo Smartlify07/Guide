@@ -4,16 +4,16 @@ import Image from 'next/image';
 const SubmissionSection = () => {
   return (
     <section className="px-6 lg:px-14 py-20 bg-primary/3 font-poppins">
-      <div className="container flex flex-col gap-10 lg:flex-row items-center justify-between">
-        <div className="grid gap-6 lg:gap-16 lg:w-6/12">
+      <div className="container flex flex-col-reverse gap-15 lg:gap-10 lg:flex-row items-center justify-between">
+        <div className="flex flex-col gap-6 lg:gap-16 lg:w-6/12">
           <header className="grid gap-2">
-            <h1 className="text-foreground text-3xl lg:text-5xl/[60px]">
+            <h1 className="text-foreground text-3xl text-center lg:text-5xl/[60px]">
               Worried about perfecting your research or finding the right
               guidance?<em className="font-medium">We’ve got you covered</em>
             </h1>
           </header>
 
-          <div className="flex items-center gap-5 relative w-[300px]">
+          <div className="flex items-center self-center lg:self-start gap-5 relative lg:w-[300px]">
             <Button
               variant={'outline'}
               className="bg-transparent border-primary hover:bg-primary hover:text-white rounded-full"
@@ -26,13 +26,13 @@ const SubmissionSection = () => {
               height={100}
               src={'/spiral-arrow.svg'}
               alt="spiral-arrow"
-              className="absolute right-14 -top-10"
+              className="absolute right-14 hidden lg:block -top-10"
             />
           </div>
         </div>
 
-        <div className="lg:w-6/12 relative max-w-[300px] h-[300px] lg:max-w-[500px] lg:h-[500px]">
-          <div className="rounded-full relative pb-[100%] w-full max-h-[300px] lg:max-h-[500px] overflow-hidden bg-primary/5">
+        <div className="lg:w-6/12 relative max-w-[300px] h-[300px] md:max-w-[500px] md:h-[500px]">
+          <div className="rounded-full relative pb-[100%] w-full max-h-[300px] md:max-h-[500px] overflow-hidden bg-primary/5">
             <Image
               width={400}
               height={400}
@@ -47,9 +47,9 @@ const SubmissionSection = () => {
             height={90}
             src={'/lightbulb-2.svg'}
             alt="Lightbulb"
-            className="absolute size-[60px] right-[10%] -top-[2%] lg:right-[10%] lg:top-[0%] lg:size-[90px]"
+            className="absolute size-[60px] right-[10%] -top-[2%] md:right-[10%] md:top-[0%] md:size-[90px]"
           />
-          <div className="rounded-lg bg-primary/10 h-fit absolute bottom-[10%] left-[5%] lg:top-[30%] lg:-left-[15%] py-2 px-4 translate-y-1/2 border-2 z-10 text-center">
+          <div className="rounded-lg bg-primary/10 backdrop-blur-md h-fit absolute bottom-[10%] left-[5%] md:top-[30%] md:-left-[15%] py-2 px-4 translate-y-1/2 border-2 z-10 text-center">
             <h3 className="text-foreground font-medium text-xs">
               Look no further, let’s help you review{' '}
             </h3>

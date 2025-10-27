@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="px-6 py-20 lg:px-14 font-poppins gap-6">
       <div className="container justify-between flex gap-10 flex-col-reverse lg:flex-row items-center">
-        <div className="flex flex-col gap-5 w-full justify-center items-center lg:items-start lg:justify-start lg:w-6/12">
+        <div className="flex flex-col gap-5 w-full justify-center items-center lg:items-start lg:justify-start md:w-10/12 lg:w-6/12">
           <header className="grid gap-5 text-center lg:text-left">
             <h1 className="text-foreground text-3xl lg:text-5xl">
               Access research materials to support learning and growth{' '}
@@ -28,8 +28,8 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className=" relative w-[300px] h-[300px] max-w-[300px] lg:max-w-[500px] lg:h-[500px] lg:w-6/12">
-          <div className="rounded-full relative pb-[100%] w-full max-h-[300px] lg:max-h-[500px] overflow-hidden bg-primary/5">
+        <div className="relative w-[300px] h-[300px] max-w-[300px] md:max-w-[500px] md:h-[500px] md:w-full lg:w-6/12">
+          <div className="rounded-full relative pb-[100%] w-full max-h-[300px] md:max-h-[500px] overflow-hidden bg-primary/5">
             <Image
               width={400}
               height={400}
@@ -44,9 +44,9 @@ const HeroSection = () => {
             height={90}
             src={'/lightbulb-1.svg'}
             alt="Lightbulb"
-            className="absolute size-[60px] right-[10%] -top-[2%] lg:right-[10%] lg:top-[2%] lg:size-[90px]"
+            className="absolute size-[60px] right-[10%] -top-[2%] md:right-[10%] md:top-[2%] md:size-[90px]"
           />
-          <div className="rounded-lg flex flex-col items-center justify-center bg-primary/10 absolute top-[50%] lg:top-[30%] lg:-left-[20%] py-2 px-4 translate-y-1/2 border-2 z-10 lg:-rotate-20 text-center">
+          <div className="rounded-lg flex flex-col items-center justify-center bg-primary/10 backdrop-blur-md absolute top-[50%] md:top-[30%] md:-left-[20%] py-2 px-4 translate-y-1/2 border-2 z-10 md:-rotate-20 text-center">
             <h3 className="text-foreground font-medium text-xs">
               Academic materials at your finger tip!
             </h3>

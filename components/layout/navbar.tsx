@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="container relative flex items-center justify-between">
         <h1 className="font-plaster text-4xl">GUIDE</h1>
 
-        <div className="hidden lg:flex items-center font-poppins gap-6 text-sm [&>a]:rounded-full [&>a]:text-foreground [&>a]:px-2.5 [&>a]:py-2 [&>.active]:bg-primary/5 [&>a]:hover:bg-primary/5">
+        <div className="hidden md:flex items-center font-poppins gap-6 text-sm [&>a]:rounded-full [&>a]:text-foreground [&>a]:px-2.5 [&>a]:py-2 [&>.active]:bg-primary/5 [&>a]:hover:bg-primary/5">
           <Link className={pathname === '/' ? 'active' : ''} href={'/'}>
             Home
           </Link>{' '}
@@ -36,11 +36,11 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <Button className="font-poppins hidden lg:block rounded-full">
+        <Button className="font-poppins hidden md:block rounded-full">
           Get Started
         </Button>
 
-        <button className="lg:hidden" onClick={toggleNav}>
+        <button className="md:hidden" onClick={toggleNav}>
           {isOpen ? <FaTimes /> : <RxHamburgerMenu />}
         </button>
       </div>

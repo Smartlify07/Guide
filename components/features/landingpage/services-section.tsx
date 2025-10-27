@@ -39,7 +39,7 @@ const ServicesSection = () => {
           </p>
         </header>
 
-        <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
+        <div className="grid gap-6 md:grid-cols-3 lg:gap-12">
           {services.map((service) => (
             <div
               key={service.id}
