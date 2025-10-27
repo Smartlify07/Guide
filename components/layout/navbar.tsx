@@ -40,7 +40,7 @@ const Navbar = () => {
           Get Started
         </Button>
 
-        <button onClick={toggleNav}>
+        <button className="lg:hidden" onClick={toggleNav}>
           {isOpen ? <FaTimes /> : <RxHamburgerMenu />}
         </button>
       </div>

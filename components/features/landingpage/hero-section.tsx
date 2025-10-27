@@ -36,7 +36,7 @@ const HeroSection = () => {
               unoptimized
               src={'/guide-hero-image.png'}
               alt="Guide hero image"
-              className="w-full h-full mt-[10%] object-contain"
+              className="w-full h-full mt-[25%] object-contain"
             />
           </div>
           <div className="rounded-lg flex flex-col items-center justify-center bg-primary/10 absolute top-[50%] lg:top-[30%] lg:-left-[20%] py-2 px-4 translate-y-1/2 border-2 z-10 lg:-rotate-20 text-center">
